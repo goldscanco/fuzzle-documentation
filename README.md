@@ -464,8 +464,7 @@ The algorithm used to find good solutions for a problem given certain constraint
 
 #### Essential Tips
 
-1. Avoid using "GridSampler" if your search space is huge, as it may result in an impractical number of trials.
-   2Avoid using "CmaEsSampler" if you have categorical parameter(s) in your search space.
+1. Avoid using "BruteForce" if your search space is huge, as it may result in an impractical number of trials.
 
 ### objectives
 
