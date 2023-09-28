@@ -745,16 +745,3 @@ If you need to set any configuration for this method, use `self.sample_config = 
 You can implement any desired logic within the method. After implementation, inform the infrastructure support team to
 add the method to the infrastructure.
 </details>
-
-# FAQ
-
-## Why is server slow?
-
-* Which endpoint is slow? If you are downloading data(`:8000/update`) or strategy result(`:5001/result/{file_name}`) it
-  is normal to be slow due to network limitations or/and size of data or result.
-* If you are optimizing something(`:5001/upload`) it is normal to be slow, too. Assume each backtest takes 2 secs and
-  you can calculate the approximate time you need to wait.
-
-# Report Problem
-
-Problem $\rightarrow$ Inform us in Slack $\rightarrow$ Ticket in Trello $\rightarrow$ Happy :)
