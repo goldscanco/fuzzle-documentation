@@ -149,6 +149,7 @@ easier to integrate your strategy into a larger backtesting framework.
   },
   "backtest": {
     "enabled": true,            ***true|false / if you want to optimize your strategy set it to false***
+    "display_strategy_log_with_error": false,
     "instruments": [            ***you can add multiple instruments to backtest together***
       {
         "plot": {
@@ -262,6 +263,15 @@ based on their desired details.
 ### enabled
 
 A boolean value that determines whether backtest is turned on or off.
+
+### display_strategy_log_with_error
+
+A boolean value that determines whether strategy logs should be displayed alongside strategy errors. 
+By default, this value is set to false. 
+
+If you don't require this feature, you can omit it from your configuration file.
+
+
 
 ### without_legend
 
